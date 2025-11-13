@@ -1,0 +1,60 @@
+#div1 {
+
+    background-color: aqua;
+
+}
+
+#div2 {
+
+    background-color: rgb(212, 255, 0);
+
+}
+
+#div3 {
+
+    background-color: rgb(200, 9, 25);
+
+}
+
+.estandar {
+
+    width: 200px;
+    height: 200px;
+
+}
+
+body {
+    background-color: blue;
+}
+
+img {
+
+    width: 300px;
+    height: 500px;
+
+}
+
+#bimg {
+    background-image: url("/images.webp");
+    background-repeat: no-repeat;
+    background-size: 300px, 500px;
+    width: 300px;
+    height: 500px;
+}
+
+
+@media only screen and (max-width:"480px") {
+
+    #contenedor {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width:"481px") {
+
+    #contenedor {
+        display: flex;
+    }
+
+}
